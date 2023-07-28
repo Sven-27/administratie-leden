@@ -1,8 +1,10 @@
 <?php
-    $servername = "localhost"; // Hostname most of the times localhost
-    $username = "root"; // Username of the admin account of the database 
-    $password = ""; // Password to the database 
-    $database = "ledenadministratie"; // Name of the database
+$env = parse_ini_file('.env');
+
+    $servername = $env['SERVER_NAME']; // Hostname most of the times localhost
+    $username = $env['USERNAME']; // Username of the admin account of the database 
+    $password = $env['PASSWORD']; // Password to the database 
+    $database = $env['DATABASE']; // Name of the database
 
     // Here a connection is attempted with a try catch. This allows your code to continue even if to goes wrong.
     try {
