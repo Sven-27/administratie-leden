@@ -27,3 +27,16 @@ Video   = Leden administratie video.mp4
 
 De sql creatiescript file zit in de rootfolder van het project
 uitdraai = uitdraai van database.pdf
+
+Inlog gegevens zijn:
+1. administrator: 
+email: admin@ledenadministratie.nl
+ww: admin123
+
+2. penningmeester
+email: penningmeester@ledenadministratie.nl
+ww: pen123
+
+3. secretaris
+email: secretaris@ledenadministratie.nl
+ww: sec123
